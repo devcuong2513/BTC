@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1cf5a9832d4547efb87fcd54c50e0777" Name="Diagram1">
+        <EntityTypeShape EntityType="PhamMinhDuc_BTC_17Model.HangTon" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhamMinhDuc_BTC_17Model.NCC" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhamMinhDuc_BTC_17Model.PhieuNhap" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhamMinhDuc_BTC_17Model.PhieuXuat" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhamMinhDuc_BTC_17Model.sysdiagram" Width="1.5" PointX="5.75" PointY="2.25" IsExpanded="true" />
+        <AssociationConnector Association="PhamMinhDuc_BTC_17Model.FK_PhieuNhap_HangTon" ManuallyRouted="false" />
+        <AssociationConnector Association="PhamMinhDuc_BTC_17Model.FK_PhieuXuat_HangTon" ManuallyRouted="false" />
+        <AssociationConnector Association="PhamMinhDuc_BTC_17Model.FK_PhieuNhap_NCC" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
